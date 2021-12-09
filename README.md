@@ -1,4 +1,4 @@
-# fake_news
+# Detecting Fake News with Python and Machine Learning
 
 1. Install Python 3, copy paste the command
 ```
@@ -23,4 +23,38 @@ The main purpose of Python virtual environments is to create an isolated environ
 ```
  source fake_news_3.8/bin/activate
 ```
- 
+Project Prerequisites
+
+You’ll need to install the following libraries with pip:
+ ```
+ pip install numpy
+ ```
+ ```
+  pip install wheel
+  ```
+  ```
+   pip install pandas
+   ```
+   ```
+   pip install -U scikit-learn
+   ```
+To start working, install jupyter using the command:
+```
+pip install jupyter
+```   
+Copy paste the url into the browswer and lets start detecting!
+
+
+   Make necessary imports:
+```
+import numpy as np
+import pandas as pd
+import itertools
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import PassiveAggressiveClassifier
+from sklearn.metrics import accuracy_score, confusion_matrix
+```
+Screenshot:
+
+![alt text](file:///C:/Users/user/OneDrive%20-%20Mahsa%20University/Desktop/3.PNG)
