@@ -55,6 +55,4 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 ```
-Screenshot:
 
-![alt text](file:///C:/Users/user/OneDrive%20-%20Mahsa%20University/Desktop/3.PNG)
